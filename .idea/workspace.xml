@@ -4,30 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57380b5f-a5d8-4ac0-834a-73a0768acf17" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Marvel_Design.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/home_page/account.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/home_page/derecha.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/home_page/fondoMarvel.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/home_page/izquierda.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/home_page/like.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/home_page/logoMarvel.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/home_page/lupa.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/images/home_page/spiderMan.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/home.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/personaje_descripcion.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/style/personajes.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/album.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/cuenta.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/mi_album.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/personaje_descripcion.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/personajes.html" afterDir="false" />
+    <list default="true" id="57380b5f-a5d8-4ac0-834a-73a0768acf17" name="Changes" comment="personaje_descripcion completado!">
+      <change afterPath="$PROJECT_DIR$/images/home_page/usuario.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/mi_album.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/mi_album.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/mi_album.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,8 +22,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
-        <option value="CSS File" />
         <option value="HTML File" />
+        <option value="CSS File" />
       </list>
     </option>
   </component>
@@ -58,25 +39,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "dart.analysis.tool.window.visible": "false",
-    "git-widget-placeholder": "main",
-    "list.type.of.created.stylesheet": "CSS",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "settings.editor.selected.configurable": "settings.sync",
-    "show.migrate.to.gradle.popup": "false",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
+    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images/home_page" />
@@ -86,8 +67,11 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.personaje_descripcion.html">
+  <component name="RunManager" selected="JavaScript Debug.mi_album.html">
     <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Marvel_Design/views/index.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="mi_album.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Marvel_Design/views/mi_album.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="personaje_descripcion.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Marvel_Design/views/personaje_descripcion.html" useBuiltInWebServerPort="true">
@@ -98,9 +82,10 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.mi_album.html" />
         <item itemvalue="JavaScript Debug.personaje_descripcion.html" />
-        <item itemvalue="JavaScript Debug.personajes.html" />
         <item itemvalue="JavaScript Debug.index.html" />
+        <item itemvalue="JavaScript Debug.personajes.html" />
       </list>
     </recent_temporary>
   </component>
@@ -116,11 +101,25 @@
       <workItem from="1694273184373" duration="8569000" />
       <workItem from="1694284719609" duration="918000" />
       <workItem from="1694289849359" duration="324000" />
-      <workItem from="1694636766329" duration="9048000" />
+      <workItem from="1694636766329" duration="9195000" />
+      <workItem from="1694703900456" duration="2129000" />
     </task>
+    <task id="LOCAL-00001" summary="personaje_descripcion completado!">
+      <option name="closed" value="true" />
+      <created>1694645999981</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1694645999981</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="personaje_descripcion completado!" />
+    <option name="LAST_COMMIT_MESSAGE" value="personaje_descripcion completado!" />
   </component>
 </project>
