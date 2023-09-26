@@ -4,9 +4,16 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="57380b5f-a5d8-4ac0-834a-73a0768acf17" name="Changes" comment="mi_album completado!">
-      <change afterPath="$PROJECT_DIR$/style/album.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/views/album.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/album.html" afterDir="false" />
+    <list default="true" id="57380b5f-a5d8-4ac0-834a-73a0768acf17" name="Changes" comment="albums completado!">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/cuenta.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/login.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/style/register.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/cuenta.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/cuenta.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/views/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -20,8 +27,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="package.json" />
-        <option value="HTML File" />
         <option value="CSS File" />
+        <option value="HTML File" />
       </list>
     </option>
   </component>
@@ -37,26 +44,32 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;dart.analysis.tool.window.visible&quot;: &quot;false&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;settings.sync&quot;,
-    &quot;show.migrate.to.gradle.popup&quot;: &quot;false&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "DefaultHtmlFileTemplate": "HTML File",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "WebServerToolWindowFactoryState": "false",
+    "dart.analysis.tool.window.visible": "false",
+    "git-widget-placeholder": "main",
+    "last_opened_file_path": "/Users/juancisneros/Documents/USFQ/Septimo_Semestre/Desarrollo_Web_3/Marvel_Design/style",
+    "list.type.of.created.stylesheet": "CSS",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "settings.sync",
+    "show.migrate.to.gradle.popup": "false",
+    "vue.rearranger.settings.migration": "true"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/style" />
+      <recent name="$PROJECT_DIR$/views" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/images/home_page" />
       <recent name="$PROJECT_DIR$/style" />
@@ -65,29 +78,29 @@
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="JavaScript Debug.album.html">
+  <component name="RunManager" selected="JavaScript Debug.cuenta.html">
     <configuration name="album.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Marvel_Design/views/album.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="index.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Marvel_Design/views/index.html" useBuiltInWebServerPort="true">
+    <configuration name="cuenta.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Marvel_Design/views/cuenta.html" useBuiltInWebServerPort="true">
+      <method v="2" />
+    </configuration>
+    <configuration name="login.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Marvel_Design/views/login.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <configuration name="mi_album.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Marvel_Design/views/mi_album.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
-    <configuration name="personaje_descripcion.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Marvel_Design/views/personaje_descripcion.html" useBuiltInWebServerPort="true">
-      <method v="2" />
-    </configuration>
-    <configuration name="personajes.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Marvel_Design/views/personajes.html" useBuiltInWebServerPort="true">
+    <configuration name="register.html" type="JavascriptDebugType" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/Marvel_Design/views/register.html" useBuiltInWebServerPort="true">
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JavaScript Debug.cuenta.html" />
+        <item itemvalue="JavaScript Debug.login.html" />
+        <item itemvalue="JavaScript Debug.register.html" />
         <item itemvalue="JavaScript Debug.album.html" />
         <item itemvalue="JavaScript Debug.mi_album.html" />
-        <item itemvalue="JavaScript Debug.personaje_descripcion.html" />
-        <item itemvalue="JavaScript Debug.index.html" />
-        <item itemvalue="JavaScript Debug.personajes.html" />
       </list>
     </recent_temporary>
   </component>
@@ -104,7 +117,8 @@
       <workItem from="1694284719609" duration="918000" />
       <workItem from="1694289849359" duration="324000" />
       <workItem from="1694636766329" duration="9195000" />
-      <workItem from="1694703900456" duration="5563000" />
+      <workItem from="1694703900456" duration="5994000" />
+      <workItem from="1695683116048" duration="6976000" />
     </task>
     <task id="LOCAL-00001" summary="personaje_descripcion completado!">
       <option name="closed" value="true" />
@@ -122,7 +136,15 @@
       <option name="project" value="LOCAL" />
       <updated>1694706048852</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="albums completado!">
+      <option name="closed" value="true" />
+      <created>1694709487643</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1694709487643</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -131,6 +153,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="personaje_descripcion completado!" />
     <MESSAGE value="mi_album completado!" />
-    <option name="LAST_COMMIT_MESSAGE" value="mi_album completado!" />
+    <MESSAGE value="albums completado!" />
+    <option name="LAST_COMMIT_MESSAGE" value="albums completado!" />
   </component>
 </project>

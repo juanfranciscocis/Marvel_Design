@@ -2,9 +2,112 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Cuenta</title>
+	<title>CUENTA</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="../style/cuenta.css">
 </head>
 <body>
+	<nav>
+		<img id="lupa_img_nav" class="lupa_nav" src="../images/home_page/lupa.png"/>
+		<input id="input_search_nav" class="input_search_nav"/>
+		<a href="personajes.html"><div id="personajes_nav" class="personajes_nav">PERSONAJES</div></a>
+		<a href="album.html"><div id="album_nav" class="album_nav">ALBUMS</div></a>
+		<a href="mi_album.html"><div id="mi_album_nav" class="mi_album_nav">MI ALBUM</div></a>
+		<a href="cuenta.html"><img id="cuenta_nav" class="cuenta_nav" src="../images/home_page/account.png"></a>
+	</nav>
+
+	<main style="display: flex; justify-content: center; align-items: center;">
+		<a href="index.html"><img class="logo_main" src="../images/home_page/logoMarvel.png" /></a>
+		<div class="container margen">
+			<div id="columnas_personajes" style="display: flex; justify-content: space-around;">
+				<div class="card text-black bg-secondary border-dark mb-3" style="width: 75%; height: 100%;">
+					<div class="card-header title">AJUSTES DE CUENTA</div>
+					<div class="card-body">
+						<div style="display: flex; justify-content: center; align-items: center; flex-direction: column;">
+							<img src="../images/home_page/usuario.png">
+							<h1 class="card-title">Juan Francisco Cisneros</h1>
+							<h5 class="card-title">#juanfrancistm2002</h5>
+							<h5 class="card-title">juanfrancistm2002@icloud.com</h5>
+						</div>
+						<br>
+						<div class="row">
+							<div class="col-md-6">
+								<form action="/cambiar_nombre" method="post">
+									<div class="form-group">
+										<label for="nombre" class="card-subtitle">Cambiar Nombre</label>
+										<input type="text" class="form-control" id="nombre" placeholder="Cambiar Nombre">
+									</div>
+									<div class="form-group">
+										<button type="submit" class="btn btn-danger">Cambiar Nombre</button>
+									</div>
+								</form>
+							</div>
+							<div class="col-md-6">
+								<form action="/cambiar_apellido" method="post">
+									<div class="form-group">
+										<label for="apellido" class="card-subtitle">Cambiar Apellido</label>
+										<input type="text" class="form-control" id="apellido" placeholder="Cambiar Apellido">
+									</div>
+									<div class="form-group">
+										<button type="submit" class="btn btn-danger">Cambiar Apellido</button>
+									</div>
+								</form>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<form action="/cambiar_usuario" method="post">
+									<div class="form-group">
+										<label for="usuario" class="card-subtitle">Cambiar Nombre De Usuario</label>
+										<input type="text" class="form-control" id="usuario" placeholder="Cambiar Nombre De Usuario">
+									</div>
+									<div class="form-group">
+										<button type="submit" class="btn btn-danger">Cambiar Nombre De Usuario</button>
+									</div>
+								</form>
+							</div>
+							<div class="col-md-6">
+								<form action="/cambiar_telefono" method="post">
+									<div class="form-group">
+										<label for="telefono" class="card-subtitle">Cambiar Telefono</label>
+										<input type="text" class="form-control" id="telefono" placeholder="Cambiar Telefono">
+									</div>
+									<div class="form-group">
+										<button type="submit" class="btn btn-danger">Cambiar Telefono</button>
+									</div>
+								</form>
+							</div>
+						</div>
+						<div class="row">
+							<div class="col-md-6">
+								<form action="/cambiar_email" method="post">
+									<div class="form-group">
+										<label for="email" class="card-subtitle">Cambiar Email</label>
+										<input type="email" class="form-control" id="email" placeholder="Cambiar Email">
+									</div>
+									<div class="form-group">
+										<button type="submit" class="btn btn-danger">Cambiar Email</button>
+									</div>
+								</form>
+							</div>
+							<div class="col-md-6">
+								<form action="/cambiar_clave" method="post">
+									<div class="form-group">
+										<label for="password" class="card-subtitle">Cambiar Clave</label>
+										<input type="password" class="form-control" id="password" placeholder="Cambiar Clave">
+									</div>
+									<div class="form-group">
+										<button type="submit" class="btn btn-danger">Cambiar Clave</button>
+									</div>
+								</form>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</main>
 
 </body>
 </html>

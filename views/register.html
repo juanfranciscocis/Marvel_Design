@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>REGISTER</title>
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="../style/register.css">
+</head>
+<body>
+
+	<nav>
+		<img id="lupa_img_nav" class="lupa_nav" src="../images/home_page/lupa.png"/>
+		<input id="input_search_nav" class="input_search_nav"/>
+		<a href="personajes.html"><div id="personajes_nav" class="personajes_nav">PERSONAJES</div></a>
+		<a href="album.html"><div id="album_nav" class="album_nav">ALBUMS</div></a>
+		<a href="mi_album.html"><div id="mi_album_nav" class="mi_album_nav">MI ALBUM</div></a>
+		<a href="cuenta.html"><img id="cuenta_nav" class="cuenta_nav" src="../images/home_page/account.png"></a>
+	</nav>
+
+	<main>
+		<a href="index.html"><img class="logo_main" src="../images/home_page/logoMarvel.png"/></a>
+		<div class="container margen">
+			<div id="columnas_personajes" style="display: flex; justify-content: space-around;">
+				<div class="card text-black bg-secondary  border-dark mb-3" style="width: 75%; height: 85vh;">
+					<div class="card-header title">BIENVENIDO A LA MARVEL WIKI </div>
+					<div class="card-body">
+						<h2 class="card-subtitle center" style="margin-bottom: 0.5em; font-size: 3em;  text-align: center;">REGISTRATE PARA ACCEDER A TODO EL CONTENIDO</h2>
+
+						<h4 class="card-subtitle center">¿Ya tienes cuenta? <a class="inicia_sesion" href="login.html">  Inicia sesión</a></h4>
+							<br>
+						<form class="custom-form" action="/registrar_usuario" method="post">
+							<div class="form-group">
+								<label for="nombre" class="card-subtitle">Nombre</label>
+								<input type="text" class="form-control" id="nombre" placeholder="Nombre">
+							</div>
+
+							<div class="form-group">
+								<label for="apellidos" class="card-subtitle">Apellidos</label>
+								<input type="text" class="form-control" id="apellidos" placeholder="Apellidos">
+							</div>
+
+							<div class="form-group">
+								<label for="username" class="card-subtitle">Nombre de usuario</label>
+								<input type="text" class="form-control" id="username" placeholder="Nombre de usuario">
+							</div>
+
+							<div class="form-group">
+								<label for="telefono" class="card-subtitle">Telefono</label>
+								<input type="text" class="form-control" id="telefono" placeholder="Telefono">
+							</div>
+
+							<div class="form-group">
+								<label for="email" class="card-subtitle">Correo electrónico</label>
+								<input type="text" class="form-control" id="email" placeholder="Correo electrónico">
+							</div>
+
+							<div class="form-group">
+								<label for="password" class="card-subtitle">Contraseña</label>
+								<input type="password" class="form-control" id="password" placeholder="Contraseña">
+							</div>
+							<div class="form-group text-center">
+								<button type="submit" class="btn btn-outline-dark btn-danger" style="width: 80%">Registrarse</button>
+							</div>
+						</form>
+
+						</div>
+					</div>
+			</div>
+		</div>
+	</main>
+</body>
+</html>
